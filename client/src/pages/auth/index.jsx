@@ -1,4 +1,4 @@
-import Background from "@/assets/login2.png";
+import Background from "@/assets/whisper1.png";
 import Victory from "@/assets/victory.svg";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Input } from "@/components/ui/input";
@@ -143,7 +143,7 @@ export default function Auth() {
 
                 {/* Right Side (Image Section) - Visible only on xl screens */}
                 <div className="hidden xl:flex justify-center items-center">
-                    <img src={Background} className="h-[400px] w-auto xl:h-[600px]" alt="Background" />
+                    <img src={Background} className="h-[400px] w-auto xl:h-[500px]" alt="Background" />
                 </div>
             </div>
         </div>

@@ -55,7 +55,6 @@ function MessageBar() {
 
     setMessage("");
   };
-
   const handleAttachmentClick = () => {
     if (fileInputRef.current) {
       fileInputRef.current.click();
@@ -110,7 +109,7 @@ function MessageBar() {
   };
 
   return (
-    <div className="h-[10vh] bg-[#1cq1d25] flex justify-center items-center px-8 mb-6 gap-6 ">
+    <div className="h-[10vh] bg-[#1c1d25] flex justify-center items-center px-8 mb-6 gap-6 ">
       <div className="flex-1 flex bg-[#2a2b33] rounded-md items-center gap-5 pr-5">
         <input
           type="text"
@@ -121,7 +120,7 @@ function MessageBar() {
           onKeyDown={handleKeyDown} // Added Enter key functionality
         />
         <button
-          className="text-neutral-500  hover:text-gray-200 focus:border-none  transition-all"
+          className="text-neutral-500 focus:border-none focus:outline-none focus:text-white duration-300 transition-all"
           onClick={handleAttachmentClick}
         >
           <GrAttachment className="text-2xl" />
@@ -129,7 +128,7 @@ function MessageBar() {
         <input type="file" className="hidden" ref={fileInputRef} onChange={handleAttachmentChange} />
         <div className="relative">
           <button
-            className="text-neutral-500  hover:text-gray-200  focus:text-white duration-300 transition-all"
+            className="text-neutral-500 focus:border-none focus:outline-none focus:text-white duration-300 transition-all"
             onClick={() => setEmojiPickerOpen(true)}
           >
             <RiEmojiStickerLine className="text-2xl" />
@@ -140,7 +139,7 @@ function MessageBar() {
         </div>
       </div>
       <button
-        className="bg-[#353737] rounded-md flex items-center justify-center p-5 hover:bg-[#646464]  focus:border-none focus:outline-none focus:text-white duration-300 transition-all"
+        className="bg-[#8417ff] rounded-md flex items-center justify-center p-5 hover:bg-[#741bda] focus:bg-[#741bda] focus:border-none focus:outline-none focus:text-white duration-300 transition-all"
         onClick={handleSendMessage}
       >
         <IoSend theme="dark" className="text-2xl" />

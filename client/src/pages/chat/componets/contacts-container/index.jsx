@@ -79,20 +79,20 @@ const Logo = () => {
           <path
             d="M55.5 0H77.5L58.5 32H36.5L55.5 0Z"
             className="ccustom"
-            fill="#cccccc"
+            fill="#8338ec"
           ></path>{" "}
           <path
             d="M35.5 0H51.5L32.5 32H16.5L35.5 0Z"
             className="ccompli1"
-            fill="#bbbbbb"
+            fill="#975aed"
           ></path>{" "}
           <path
             d="M19.5 0H31.5L12.5 32H0.5L19.5 0Z"
             className="ccompli2"
-            fill="#aaaaaa"
+            fill="#a16ee8"
           ></path>{" "}
         </svg>
-        <span className="text-3xl font-semibold ">ChatSphere</span>
+        <span className="text-3xl font-semibold ">WhisperNet</span>
       </div>
     );
   };

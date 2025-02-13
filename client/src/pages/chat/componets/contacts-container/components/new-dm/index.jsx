@@ -137,8 +137,8 @@ function NewDm() {
               <div className="text-opacity-80 text-gray-400  flex flex-col gap-5 items-center mt-5 lg:text-2xl text-xl transition-all duration-1000 text-center">
                 <h3 className="poppins-medium">
                   Hi
-                  <span className="">!</span> Search new
-                  <span className="text-gray-200 "> Contact </span>
+                  <span className="text-purple-500">!</span> Search new
+                  <span className="text-purple-500 "> Contact </span>
                 </h3>
               </div>
             </div>
